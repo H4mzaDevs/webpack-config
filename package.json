@@ -5,9 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "webpack serve",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "git:commit": "cz",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "repository": {
     "type": "git",
