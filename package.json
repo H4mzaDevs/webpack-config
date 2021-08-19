@@ -1,0 +1,28 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H4mzaDevs/webpack-config.git"
+  },
+  "keywords": ["Web","Develepments"],
+  "author": "Hamza Ghariani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H4mzaDevs/webpack-config/issues"
+  },
+  "homepage": "https://github.com/H4mzaDevs/webpack-config#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
