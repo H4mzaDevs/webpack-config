@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/H4mzaDevs/webpack-config.git"
   },
-  "keywords": ["Web","Develepments"],
+  "keywords": [
+    "Web",
+    "Develepments"
+  ],
   "author": "Hamza Ghariani",
   "license": "ISC",
   "bugs": {
@@ -25,5 +28,10 @@
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "anime": "^0.1.2",
+    "phaser": "^3.55.2",
+    "three": "^0.131.3"
   }
 }
